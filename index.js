@@ -12,6 +12,9 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.send('About Page')
 })
+app.get('/contact',(req,res)=>{
+  res.send("hello my dear ,\n how can I help u  ")
+})
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
